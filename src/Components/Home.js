@@ -35,17 +35,17 @@ export default function Home() {
                     <a class=" nav-link navbtn mx-lg-3" href="#roadmap">ROADMAP</a>
                   </li>
                   <li class="nav-item">
-                    <a class=" nav-link navbtn mx-lg-3" href="#">TEAM</a>
+                    <a class=" nav-link navbtn mx-lg-3" href="#team">TEAM</a>
                   </li>
                 </ul>
                 <span className='d-block mx-auto text-center'>
-                  <button type="button" class="btn Sbtn mx-1 d-inline-block" href="https://discord.gg/YbbzBcqC"><i class="fab fa-discord"></i></button>
-                  <button type="button" class="btn Sbtn mx-1 d-inline-block" href="https://twitter.com/home"><i class="fab fa-twitter"></i></button>
+                  <a type="button" class="btn Sbtn mx-1 d-inline-block" href="https://discord.gg/YbbzBcqC"><i class="fab fa-discord"></i></a>
+                  <a type="button" class="btn Sbtn mx-1 d-inline-block" href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
                 </span>
               </div>
             </nav>
             <SimpleSlider />
-            <div className='row' >
+            <div className='row' id="about">
               <div className="col text-center">
                 <p className=" text-center textAll undead">10,000 undead NFTs on the Ethereum blockchain</p><br />
                 <button type="button" className=" buybtn btn-lg btn btn-outline-primary">BUY ON OPENSEA</button>
@@ -69,7 +69,7 @@ export default function Home() {
       <br /><br />
 
 
-      <div className="container">
+      <div className="container" id="roadmap">
         <h1 className='textAll text-center' >Road Map</h1>
         <br /><br />
         <div className="timeline">
@@ -144,7 +144,7 @@ export default function Home() {
 
 
       <br /><br />
-      <div className='container' >
+      <div className='container' id="team" >
         <h1 className='textAll text-center' >Our Team</h1><br /><br />
         <div className='row'>
           <div className='col-md-4' >
