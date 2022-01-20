@@ -29,16 +29,19 @@ export default function Home() {
               <div class="collapse navbar-collapse  navbtnA" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                   <li class="nav-item">
-                    <a class=" nav-link navbtn mx-lg-3" href="#">ABOUT</a>
+                    <a class=" nav-link navbtn mx-lg-3" href="#about">ABOUT</a>
                   </li>
                   <li class="nav-item">
-                    <a class=" nav-link navbtn mx-lg-3" href="#">ROADMAP</a>
+                    <a class=" nav-link navbtn mx-lg-3" href="#roadmap">ROADMAP</a>
                   </li>
                   <li class="nav-item">
                     <a class=" nav-link navbtn mx-lg-3" href="#">TEAM</a>
                   </li>
                 </ul>
-                <button type="button" class="btn Sbtn"><i class="fab fa-twitter"></i>  Twitter</button>
+                <span className='d-block mx-auto text-center'>
+                  <button type="button" class="btn Sbtn mx-1 d-inline-block" href="https://discord.gg/YbbzBcqC"><i class="fab fa-discord"></i></button>
+                  <button type="button" class="btn Sbtn mx-1 d-inline-block" href="https://twitter.com/home"><i class="fab fa-twitter"></i></button>
+                </span>
               </div>
             </nav>
             <SimpleSlider />
@@ -76,9 +79,11 @@ export default function Home() {
             </div>
             <div className="timeline-content">
               <div className="thumbs">
-                <p>4444 Dark Clouds Minted on Ethereum Blockchain
-                  Giveaway 10 NFTs
-                  Acquisition of Sandbox and Decetraland Plot</p>
+                <p className='text-left'>
+                  4444 Dark Clouds Minted on Ethereum Blockchain <br />
+                  Whitelist and OG Pre-mint. Followed by public mint! <br />
+                  Whitelist 3 Mints and OG 1
+                </p>
               </div>
 
             </div>
@@ -90,15 +95,43 @@ export default function Home() {
             </div>
             <div class="timeline-content">
               <div class="thumbs">
-                <p>1/1 Artist Commisions for Top Holders
+                <p>
+                  Giveaway 10 NFTs <br />
+                  These will include to influencers and big players in the NFT world. We will also be hosting Ethereum and general public giveaways
+                </p>
+              </div>
 
-                  Get project on rarity tools
+            </div>
+          </div>
 
-                  Get Verified on OpenSea
+          <div class="timeline-row">
+            <div class="timeline-time">
+              <h3>Stage 3</h3>
+            </div>
+            <div class="timeline-content">
+              <div class="thumbs">
+                <p>
+                  Acquisition of Sandbox and Decetraland Plot <br />
+                  Purchased NFTWorlds Plot; application submitted to be official builders and our team of architects is getting started asap Our plot will encompass the Dark Cloud themed arena that you will be able to participate and rent! Community members are going to get to participate in the build so they can learn how to build in the metaverse and potentially use this skill as a revenue stream in the future
+                </p>
+              </div>
 
-                  Utility to use in Sandbox and Decentraland
+            </div>
+          </div>
 
-                  New updates for Dark Clouds Metaverse</p>
+          <div class="timeline-row">
+            <div class="timeline-time">
+              <h3>Stage 4</h3>
+            </div>
+            <div class="timeline-content">
+              <div class="thumbs">
+                <p>
+                1/1 Artist Commisions for Top Holders <br />
+                Get project on rarity tools <br />
+                Get Verified on OpenSea <br />
+                Utility to use in Sandbox and Decentraland <br />
+                New updates for Dark Clouds Metaverse <br />
+                </p>
               </div>
 
             </div>
