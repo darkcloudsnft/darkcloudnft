@@ -61,7 +61,7 @@ export default function Home() {
       <div className='container text-c enter textAll joinhorde' >
         <div className='row align-items-center py-5'>
           <div className='col-md-6'>
-            <h2 className='pt-5'>JOIN THE HORDE</h2><br></br>
+            <h2 className='pt-5'>Join the Dark Clouds</h2><br></br>
             <p>With your DeadFellaz token comes art, culture & community</p>
             <p>We are here for the love of art and the evolution of gamification, IP & NFT tech.</p>
             <p>Our efforts focus on innovating within the NFT space</p>
