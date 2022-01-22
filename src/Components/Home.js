@@ -7,6 +7,7 @@ import Img4 from '../Components/imgs/z4.jpg'
 import Img5 from '../Components/imgs/z5.jpg'
 import Img6 from '../Components/imgs/z6.jpg'
 import Logo from '../Components/imgs/logo.png'
+import gifimg from './imgs/new.gif'
 import SimpleSlider from './slider.js';
 // import Mintbtn from './mintbtn.js'
 
@@ -16,51 +17,60 @@ export default function Home() {
 
 
       {/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<NAVBAR>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
-      <div className='container herosection' >
-        <div className='row'>
-          <div className='col-12'>
-            <nav class="navbar navbar-expand-lg navbar-dark ">
-              <a class="navbar-brand" href="#">
-                <img className='logo' src={Logo}  alt=""></img>
-              </a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse  navbtnA" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                  <li class="nav-item">
-                    <a class=" nav-link navbtn mx-lg-3" href="#about">ABOUT</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class=" nav-link navbtn mx-lg-3" href="#roadmap">ROADMAP</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class=" nav-link navbtn mx-lg-3" href="#team">TEAM</a>
-                  </li>
-                </ul>
-                <span className='d-block mx-auto text-center'>
-                  <a type="button" class="btn Sbtn mx-1 d-inline-block" href="https://discord.gg/YbbzBcqC"><i class="fab fa-discord"></i></a>
-                  <a type="button" class="btn Sbtn mx-1 d-inline-block" href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
-                </span>
-              </div>
-            </nav>
-            <SimpleSlider />
-            <div className='row' id="about">
-              <div className="col text-center">
-                <p className=" text-center textAll undead">10,000 undead NFTs on the Ethereum blockchain</p><br />
-                <button type="button" className=" buybtn btn-lg btn btn-outline-primary">BUY ON OPENSEA</button>
-                {/* <Mintbtn /> */}
+      <div className='container-fluid herosection' >
+        <div className='container'>
+          <div className='row'>
+            <div className='col-12'>
+              <nav class="navbar navbar-expand-lg navbar-dark ">
+                <a class="navbar-brand" href="#">
+                  <img className='logo' src={Logo}  alt=""></img>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  navbtnA" id="navbarNav">
+                  <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                      <a class=" nav-link navbtn mx-lg-3" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class=" nav-link navbtn mx-lg-3" href="#roadmap">ROADMAP</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class=" nav-link navbtn mx-lg-3" href="#team">TEAM</a>
+                    </li>
+                  </ul>
+                  <span className='d-block mx-auto text-center'>
+                    <a type="button" class="btn Sbtn mx-1 d-inline-block" href="https://discord.gg/YbbzBcqC"><i class="fab fa-discord"></i></a>
+                    <a type="button" class="btn Sbtn mx-1 d-inline-block" href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+                  </span>
+                </div>
+              </nav>
+              <SimpleSlider />
+              <div className='row' id="about">
+                <div className="col text-center">
+                  <p className=" text-center textAll undead">10,000 undead NFTs on the Ethereum blockchain</p><br />
+                  <button type="button" className=" buybtn btn-lg btn btn-outline-primary">BUY ON OPENSEA</button>
+                  {/* <Mintbtn /> */}
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className='container text-center textAll joinhorde' >
-        <h2>JOIN THE HORDE</h2><br></br>
-        <p>With your DeadFellaz token comes art, culture & community</p>
-        <p>We are here for the love of art and the evolution of gamification, IP & NFT tech.</p>
-        <p>Our efforts focus on innovating within the NFT space</p>
-        <p>& empowering our holders in creative ways.</p>
+      <div className='container text-c enter textAll joinhorde' >
+        <div className='row align-items-center py-5'>
+          <div className='col-md-6'>
+            <h2 className='pt-5'>JOIN THE HORDE</h2><br></br>
+            <p>With your DeadFellaz token comes art, culture & community</p>
+            <p>We are here for the love of art and the evolution of gamification, IP & NFT tech.</p>
+            <p>Our efforts focus on innovating within the NFT space</p>
+            <p>& empowering our holders in creative ways.</p>
+          </div>
+          <div className='col-md-6'>
+            <img className='d-block gifimg' src={gifimg} />
+          </div>
+        </div>
       </div>
 
 
@@ -149,8 +159,8 @@ export default function Home() {
         <div className='row'>
           <div className='col-md-4' >
             <img src={Img6} class="Teamimg mx-auto " alt="..."></img><br/><br/>
-            <large>Betty</large>
-            <h5 className='textAll' >Concept Creation</h5>
+            <large>Connor Dinnadge</large>
+            <h5 className='textAll' >Smart Contract Developer</h5>
             <p><small>Outside of the Metaverse, Betty is Co Director of a Creative Production Agency based in Australia serving global clients.</small></p>
             <i class="fab fa-twitter ico"></i>
           </div>

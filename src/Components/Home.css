@@ -8,6 +8,11 @@
 }
 .herosection {
   min-height: 100vh;
+  background-image: url(./imgs/bgg.PNG);
+  background-size: cover;
+  background-color: #0008;
+  background-position: center;
+  background-blend-mode: darken;
 }
 * {
   font-size: 20px;
@@ -74,10 +79,10 @@
 }
 .Sbtn {
   background-color: #dd4442;
-  color: white;
+  color: white !important;
 }
 .Sbtn:hover {
-  color: #dd4442;
+  color: #dd4442 !important;
   background-color: transparent;
   border-color: #dd4442;
 }
@@ -315,4 +320,9 @@ nav a {
 }
 .slick-slide img {
   border-radius: 100%;
+}
+.gifimg {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
 }
