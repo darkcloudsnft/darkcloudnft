@@ -90,7 +90,7 @@ export default function Home() {
             <div className="timeline-content">
               <div className="thumbs">
                 <p className='text-left'>
-                  4444 Dark Clouds Minted on Ethereum Blockchain <br />
+                  Dark Clouds Token Minted on Ethereum Blockchain <br />
                   Whitelist and OG Pre-mint. Followed by public mint! <br />
                   Whitelist 3 Mints and OG 1
                 </p>
