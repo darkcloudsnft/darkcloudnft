@@ -51,19 +51,19 @@ export default class SimpleSlider extends Component {
     return (
       <div className="px-3 py-5">
         <Slider {...settings}>
-          <div className="px-4">
+          <div className="px-2">
               <img src={slide5} className="d-block mx-5" className="gifimg"/>
           </div>
-          <div className="px-4">
+          <div className="px-2">
               <img src={slide1} className="d-block mx-5" className="gifimg"/>
           </div>
-          <div className="px-4">
+          <div className="px-2">
               <img src={slide2} className="d-block mx-5" className="gifimg"/>
           </div>
-          <div className="px-4">
+          <div className="px-2">
               <img src={slide3} className="d-block mx-5" className="gifimg"/>
           </div>
-          <div className="px-4">
+          <div className="px-2">
               <img src={slide4} className="d-block mx-5" className="gifimg"/>
           </div> 
         </Slider>
