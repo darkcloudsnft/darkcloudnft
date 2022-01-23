@@ -23,7 +23,7 @@ export default function Home() {
             <div className='col-12'>
               <nav class="navbar navbar-expand-lg navbar-dark ">
                 <a class="navbar-brand" href="#">
-                  <img className='logo' src={Logo}  alt=""></img>
+                  <img className='logo' src={Logo} alt=""></img>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -49,7 +49,7 @@ export default function Home() {
               <SimpleSlider />
               <div className='row' id="about">
                 <div className="col text-center">
-                  <p className=" text-center textAll undead">10,000 undead NFTs on the Ethereum blockchain</p><br />
+                  <p className=" text-center textAll undead">4444 NFTs on the Ethereum blockchain</p><br />
                   <button type="button" className=" buybtn btn-lg btn btn-outline-primary">BUY ON OPENSEA</button>
                   {/* <Mintbtn /> */}
                 </div>
@@ -62,7 +62,7 @@ export default function Home() {
         <div className='row align-items-center py-5'>
           <div className='col-md-6'>
             <h2 className='pt-5'>Join the Dark Clouds</h2><br></br>
-            <p>With your DeadFellaz token comes art, culture & community</p>
+            <p>With your Dark Clouds token comes art, culture & community</p>
             <p>We are here for the love of art and the evolution of gamification, IP & NFT tech.</p>
             <p>Our efforts focus on innovating within the NFT space</p>
             <p>& empowering our holders in creative ways.</p>
@@ -74,12 +74,79 @@ export default function Home() {
       </div>
 
 
-      {/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Timeline> >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
+      {/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< < Road Map > >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
       <br /><br />
       <br /><br />
 
 
-      <div className="container" id="roadmap">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 className='pt-5 text-center RD'>Road Map</h2>
+
+            <div class="main-timeline">
+              <div class="timeline">
+                <div class="timeline-icon"><span class="year">1</span>
+                  <div class="vl"></div>
+
+                </div>
+
+                <div class="timeline-content">
+
+                  <h3 class="title">Stage One</h3>
+
+                  <p class="description">
+                    Dark Clouds Token Minted on Ethereum Blockchain
+                    Whitelist and OG Pre-mint. Followed by public mint!
+                    Whitelist 3 Mints and OG 1
+                  </p>
+
+                </div>
+
+              </div>
+
+              <div class="timeline pt-5 mt-1">
+
+                <div class="timeline-icon"><span class="year">2   <div class="vlb"></div>   </span>
+
+                </div>
+                <div class="timeline-content">
+                  <h3 class="title">Stage Two</h3>
+                  <p class="description">
+                    Giveaway 10 NFTs These will include to influencers and big players in the NFT world. We will also be hosting Ethereum and general public giveaway
+                  </p>
+                </div>
+              </div>
+              <div class="timeline">
+                <div class="timeline-icon"><span class="year">3</span><div class="vlc"></div></div>
+                <div class="timeline-content">
+                  <h3 class="title">Stage Three</h3>
+                  <p class="description">
+                    Acquisition of Sandbox and Decetraland Plot Purchased NFTWorlds Plot; application submitted to be official builders and our team of architects is getting started asap Our plot will encompass the Dark Cloud themed arena that you will be able to participate and rent! Community members are going to get to participate in the build so they can learn how to build in the metaverse and potentially use this skill as a revenue stream in the future
+                  </p>
+                </div>
+              </div>
+              <div class="timeline">
+                <div class="timeline-icon"><span class="year">4</span></div>
+                <div class="timeline-content">
+                  <h3 class="title">Stage Four</h3>
+                  <p class="description">
+                    1/1 Artist Commisions for Top Holders
+                    Get project on rarity tools
+                    Get Verified on OpenSea
+                    Utility to use in Sandbox and Decentraland
+                    New updates for Dark Clouds Metaverse
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      {/* <div className="container pt-5" id="roadmap">
         <h1 className='textAll text-center' >Road Map</h1>
         <br /><br />
         <div className="timeline">
@@ -136,11 +203,11 @@ export default function Home() {
             <div class="timeline-content">
               <div class="thumbs">
                 <p>
-                1/1 Artist Commisions for Top Holders <br />
-                Get project on rarity tools <br />
-                Get Verified on OpenSea <br />
-                Utility to use in Sandbox and Decentraland <br />
-                New updates for Dark Clouds Metaverse <br />
+                  1/1 Artist Commisions for Top Holders <br />
+                  Get project on rarity tools <br />
+                  Get Verified on OpenSea <br />
+                  Utility to use in Sandbox and Decentraland <br />
+                  New updates for Dark Clouds Metaverse <br />
                 </p>
               </div>
 
@@ -148,7 +215,7 @@ export default function Home() {
           </div>
 
         </div>
-      </div>
+      </div> */}
 
       {/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Team>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
 
@@ -158,23 +225,23 @@ export default function Home() {
         <h1 className='textAll text-center' >Our Team</h1><br /><br />
         <div className='row'>
           <div className='col-md-4' >
-            <img src={Img6} class="Teamimg mx-auto " alt="..."></img><br/><br/>
+            <img src={Img6} class="Teamimg mx-auto " alt="..."></img><br /><br />
             <large>Connor Dinnadge</large>
-            <h5 className='textAll' >Smart Contract Developer</h5>
+            <h5 className='textAll' > Smart Contract Developer</h5>
             <p><small>Outside of the Metaverse, Betty is Co Director of a Creative Production Agency based in Australia serving global clients.</small></p>
             <i class="fab fa-twitter ico"></i>
           </div>
           <div className='col-md-4' >
-            <img src={Img1} class="Teamimg mx-auto " alt="..."></img><br/><br/>
+            <img src={Img1} class="Teamimg mx-auto " alt="..."></img><br /><br />
             <large>Betty</large>
-            <h5 className='textAll' >Concept Creation</h5>
+            <h5 className='textAll' >Cloud Limitless Developer </h5>
             <p><small>Outside of the Metaverse, Betty is Co Director of a Creative Production Agency based in Australia serving global clients.</small></p>
             <i class="fab fa-twitter ico"></i>
           </div>
           <div className='col-md-4' >
-            <img src={Img2} class="Teamimg mx-auto " alt="..."></img><br/><br/>
+            <img src={Img2} class="Teamimg mx-auto " alt="..."></img><br /><br />
             <large>Betty</large>
-            <h5 className='textAll' >Concept Creation</h5>
+            <h5 className='textAll' >Bunny Marketing</h5>
             <p><small>Outside of the Metaverse, Betty is Co Director of a Creative Production Agency based in Australia serving global clients.</small></p>
             <i class="fab fa-twitter ico"></i>
           </div>
