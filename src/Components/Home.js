@@ -230,15 +230,15 @@ export default function Home() {
           </div>
           <div className='col-md-4' >
             <img src={Img1} class="Teamimg mx-auto " alt="..."></img><br /><br />
-            <large>Betty</large>
-            <h5 className='textAll' >Cloud Limitless Developer </h5>
+            <large>Cloud Limitless </large>
+            <h5 className='textAll' >Developer </h5>
             <p><small>Outside of the Metaverse, Betty is Co Director of a Creative Production Agency based in Australia serving global clients.</small></p>
             <i class="fab fa-twitter ico"></i>
           </div>
           <div className='col-md-4' >
             <img src={Img2} class="Teamimg mx-auto " alt="..."></img><br /><br />
-            <large>Betty</large>
-            <h5 className='textAll' >Bunny Marketing</h5>
+            <large>Bunny </large>
+            <h5 className='textAll' >Marketing</h5>
             <p><small>Outside of the Metaverse, Betty is Co Director of a Creative Production Agency based in Australia serving global clients.</small></p>
             <i class="fab fa-twitter ico"></i>
           </div>
