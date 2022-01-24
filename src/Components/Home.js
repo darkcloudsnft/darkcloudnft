@@ -4,6 +4,7 @@ import Img1 from '../Components/imgs/z1.jpg'
 import Img2 from '../Components/imgs/z2.jpg'
 import Img6 from '../Components/imgs/z6.jpg'
 import Logo from '../Components/imgs/logo.png'
+import team from '../Components/imgs/team.png'
 import gifimg from './imgs/new.gif'
 import SimpleSlider from './slider.js';
 // import Mintbtn from './mintbtn.js'
@@ -225,21 +226,21 @@ export default function Home() {
             <img src={Img6} class="Teamimg mx-auto " alt="..."></img><br /><br />
             <large>Connor Dinnadge</large>
             <h5 className='textAll' > Smart Contract Developer</h5>
-            <p><small>Outside of the Metaverse, Betty is Co Director of a Creative Production Agency based in Australia serving global clients.</small></p>
+            <p><small>Expert in smart contract creation. London native</small></p>
             <i class="fab fa-twitter ico"></i>
           </div>
           <div className='col-md-4' >
-            <img src={Img1} class="Teamimg mx-auto " alt="..."></img><br /><br />
+            <img src={team} class="Teamimg mx-auto " alt="..."></img><br /><br />
             <large>Cloud Limitless </large>
             <h5 className='textAll' >Developer </h5>
-            <p><small>Outside of the Metaverse, Betty is Co Director of a Creative Production Agency based in Australia serving global clients.</small></p>
+            <p><small>Digital Marketing Expert. In Crypto since 2017. Lover of Clouds</small></p>
             <i class="fab fa-twitter ico"></i>
           </div>
           <div className='col-md-4' >
             <img src={Img2} class="Teamimg mx-auto " alt="..."></img><br /><br />
             <large>Bunny </large>
             <h5 className='textAll' >Marketing</h5>
-            <p><small>Outside of the Metaverse, Betty is Co Director of a Creative Production Agency based in Australia serving global clients.</small></p>
+            <p><small>Licensed Lawyer. Jpeg Lover</small></p>
             <i class="fab fa-twitter ico"></i>
           </div>
         </div>
