@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+.Sbtn i {
+  font-size: 30px;
+  line-height: 1.3em;
+}

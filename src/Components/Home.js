@@ -39,7 +39,7 @@ export default function Home() {
                     </li>
                   </ul>
                   <span className='d-block mx-auto text-center'>
-                    <a type="button" class="btn Sbtn mx-1 d-inline-block" href="https://discord.gg/YbbzBcqC"><i class="fab fa-discord"></i></a>
+                    <a type="button" class="btn Sbtn mx-1 d-inline-block" href="https://discord.gg/BeZWHPQUCD"><i class="fab fa-discord"></i></a>
                     <a type="button" class="btn Sbtn mx-1 d-inline-block" href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
                   </span>
                 </div>
