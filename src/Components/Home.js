@@ -226,7 +226,7 @@ export default function Home() {
             <img src={Img6} class="Teamimg mx-auto " alt="..."></img><br /><br />
             <large>Connor Dinnadge</large>
             <h5 className='textAll' > Smart Contract Developer</h5>
-            <p><small>Expert in smart contract creation. London native</small></p>
+            <p><small>With over 5 years in website development experience and a passion for technology and the cryptocurrency world, it was only a matter of time before he would get involved with the NFT community and smart contract development when he joined the community in early 2021.</small></p>
             <i class="fab fa-twitter ico"></i>
           </div>
           <div className='col-md-4' >
